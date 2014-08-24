@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "me_quran";
+  src: local("me_quran"), url("fonts/me_quran_volt_newmet.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: local("Open Sans Regular"), url("fonts/OpenSans-Regular-webfont.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: local("Open Sans Light"), url("fonts/OpenSans-Light-webfont.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Condensed Light";
+  src: local("Open Sans Condensed Light"), url("fonts/OpenSans-CondLight-webfont.ttf");
+}
+
+@font-face {
+  font-family: "Scheherazade-R";
+  src: local("Scheherazade Regular"), url("fonts/Scheherazade-R.woff");
+}
+
+@font-face {
+  font-family: "Saleem Regular";
+  src: local("Saleem Regular"), url("fonts/_PDMS_Saleem_QuranFont.ttf");
+}
+
+@font-face {
+  font-family: "Amiri Quran";
+  src: local("Amiri Quran"), url("fonts/amiri-quran.woff");
+}
+
+@font-face {
+  font-family: "Uthman Naskh";
+  src: local("Uthman Naskh"), url("fonts/uthmantn.ttf");
+}
+
+
+@font-face {
+  font-family: "Goudy Bookletter";
+  src: local("Goudy Bookletter"), url("fonts/goudy_bookletter_1911-webfont.woff");
+}
+
+@font-face {
+  font-family: "Garogier";
+  src: local("Garogier"), url("fonts/Garogier-webfont.woff");
+}
+
+.q { 
+  /* 
+  font-family: "me_quran" !important;
+  letter-spacing: -0.003em !important; */
+  
+  /* font-family: "Scheherazade-R" !important; */ 
+  
+  /* font-family: "Uthman Naskh" !important; */
+  
+  font-family: "Amiri Quran" !important;
+  font-size: 2em !important;
+  color: #FFFFFF !important;
+  font-weight: 400;
+} 
+
+p.q { 
+  text-align: right; 
+  direction: rtl;
+} 
+
+
+ol.q { 
+  text-align: right; 
+  direction: rtl;
+} 
+
+
+h2 { 
+  /* font-size: 1.5em !important; */ 
+  /* font-family: sans-serif !important; */
+} 
+
+h2.q {
+  /* 
+  font-family: "me_quran" !important; 
+  letter-spacing: -0.003em !important; 
+  */
+  margin-bottom: 50px;
+  font-size: 1.2em !important;
+  direction: rtl;
+} 
+
+section { 
+  /* font-family: "Open Sans Light", sans-serif !important; */ 
+  /* font-family: "Goudy Bookletter", serif !important; */ 
+  /* font-family: "Garogier", serif !important;  */
+} 
+
+section p, section ol { 
+  /* text-align: left; */
+  line-height: 150% !important;
+  font-size: 0.8em !important; 
+} 
+
+.note { 
+  text-align: center;
+  font-size: 0.6em  !important;  
+  opacity: 0.7;
+  
+} 
+
+.center { 
+  text-align: center;
+  margin: auto;
+} 
+
+.artrans {
+    /* font-family: "Garogier", serif !important; */
+    /* font-style: italic !important; */
+    font-weight: bold;
+    color: #CC6655;
+}
+
+em { 
+    color: #CC6655;
+    font-style: normal !important;
+    border-bottom: 1px dashed #CC6655 !important;
+} 
+
+
+section a { 
+    border-bottom: 1px dashed #3465a4 !important;
+}
+
+section a:hover { 
+    border-bottom: 1px dashed #CC6655 !important;
+} 
+
+
+
+section table.fullwidth {
+  width: 70%; 
+  text-align: center; 
+  margin: 0 auto;
+} 
+
+section table.fullwidth td {
+  padding-bottom: 20px;
+  text-align: center; 
+} 
+
+section table.fullwidth th { 
+  border-bottom: 1px dashed #000000 !important ;
+  margin: 5px;
+  text-align: center; 
+} 
+
+
+.small { 
+  font-size: 1em !important; 
+} 
