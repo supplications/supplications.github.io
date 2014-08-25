@@ -64,6 +64,10 @@
   font-weight: 400;
 } 
 
+.q-only { 
+  font-family: "Amiri Quran" !important;
+} 
+
 p.q { 
   text-align: right; 
   direction: rtl;
@@ -123,9 +127,9 @@ section p, section ol {
 }
 
 em { 
-    color: #CC6655;
-    font-style: normal !important;
-    border-bottom: 1px dashed #CC6655 !important;
+    /* color: #CC6655; */
+    /* font-style: normal !important; */ 
+    border-bottom: 1px dashed #FFFFFF !important;
 } 
 
 
@@ -159,4 +163,34 @@ section table.fullwidth th {
 
 .small { 
   font-size: 1em !important; 
+} 
+
+.dua { 
+  display: block !important; 
+  /* border: 1px dashed #fff !important ; */
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  padding-bottom: 0.5em !important;
+  line-height: 2em !important;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+  background-color: rgba(0, 0, 0, 0.3) !important; 
+  -moz-border-radius: 0.75em;
+  -webkit-border-radius: 0.75em;
+  border-radius: 0.75em; /* future proofing */
+  -khtml-border-radius: 0.75em; /* for old Konqueror browsers */
+} 
+
+.translation { 
+  background-color: rgba(0, 0, 0, 0.2) !important; 
+  padding-top: 1em !important; 
+  padding-bottom: 1em !important; 
+  padding-left: 0.65em !important;
+  padding-right: 0.65em !important;
+  font-size: 0.7em !important;
+  
+  -moz-border-radius: 0.75em;
+  -webkit-border-radius: 0.75em;
+  border-radius: 0.75em; /* future proofing */
+  -khtml-border-radius: 0.75em; /* for old Konqueror browsers */
 } 
