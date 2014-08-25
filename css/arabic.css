@@ -109,8 +109,8 @@ section p, section ol {
 
 .note { 
   text-align: center;
-  font-size: 0.6em  !important;  
-  opacity: 0.7;
+  font-size: 0.7em  !important;  
+  /* opacity: 0.7; */
   
 } 
 
@@ -194,3 +194,39 @@ section table.fullwidth th {
   border-radius: 0.75em; /* future proofing */
   -khtml-border-radius: 0.75em; /* for old Konqueror browsers */
 } 
+
+
+
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #FFFFFF; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #FFFFFF; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #FFFFFF; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #FFFFFF; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #AACCFF; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #AACCFF; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #AACCFF; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #AACCFF; }
+  
+  
